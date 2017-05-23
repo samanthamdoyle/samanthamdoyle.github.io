@@ -1,21 +1,46 @@
 .body{
 background-color: lightsalmon;
+margin: -10px;
 }
 
 .topnav a{
   text-decoration: none;
   color: white;
-  font-size: 18px;
-  font-family: nimbus sans;
+  font-size: 16px;
+  font-family: arial;
   padding: 8px;
   z-index: 5;
 }
 
 .topnav{
   text-align: center;
-  padding-top:20px;
+  padding-top:25px;
   width: 100%;
 }
+
+.backbutton{
+  position: fixed;
+  text-decoration: none;
+  color: white;
+  left: 4%;
+  margin-top: 280px;
+  font-size: 80px;
+  font-weight: bolder;
+}
+
+.nextbutton{
+  position: fixed;
+  text-decoration: none;
+  font-family: arial;
+  font-weight: bold;
+  font-size: 25px;
+  color: white;
+  transform: rotate(90deg);
+  right: 6%;
+  margin-top: 280px;
+  letter-spacing: 3px;
+}
+
 
 .home-link {
  position: fixed;
@@ -25,7 +50,7 @@ background-color: lightsalmon;
  z-index: 5;
  text-decoration:none;
  color:red;
- font-family: nimbus sans;
+ font-family: arial;
  font-weight: bold;
  border-width: 0 0 2px;
  border-style: solid;
@@ -39,7 +64,7 @@ background-color: lightsalmon;
  z-index: 5;
  text-decoration:none;
  color:red;
- font-family: nimbus sans;
+ font-family: arial;
  font-weight: bold;
  border-width: 0 0 2px;
  border-style: solid;
@@ -54,7 +79,7 @@ text-align: center;
 text-decoration:none;
 z-index: 5;
 color:red;
-font-family: nimbus sans;
+font-family: arial;
 font-weight: bold;
 border-width: 0 0 2px;
 border-style: solid;
@@ -68,7 +93,7 @@ left: 90%;
 text-align: center;
 z-index: 5;
 color:red;
-font-family: nimbus sans;
+font-family: arial;
 font-weight: bold;
 border-width: 0 0 2px;
 border-style: solid;
@@ -76,7 +101,7 @@ text-decoration: none;
 }
 
 .heading{
-font-family: nimbus sans;
+font-family: arial;
 font-weight: bold;
 font-size: 50px;
 text-align: center;
@@ -98,7 +123,7 @@ color:white;
 
 .intro{
 text-align: center;
-font-family: nimbus sans;
+font-family: arial;
 font-weight:bold;
 font-size: 18px;
 padding-top:18px;
@@ -107,7 +132,7 @@ color:red;
 
 .introtext{
   text-align: left;
-  font-family: nimbus sans;
+  font-family: arial;
   font-weight: bold;
   font-size: 42px;
   padding-left: 120px;
@@ -123,12 +148,12 @@ color:red;
   text-align: center;
   height:40px;
   font-size: 60px;
-  font-family: nimbus sans;
+  font-family: arial;
   font-weight: bold;
   padding: 40px;
   margin: 50px;
   margin-left: 120px;
-  line-height:60px;
+  line-height:45px;
   border:3px solid red;
   box-shadow:20px 20px 0px red;
   color: red;
@@ -136,10 +161,10 @@ color:red;
 
 .sources a{
   text-decoration: none;
-  color: red;
+  color: white;
 }
 
-a:hover {text-decoration:none;color:white;}
+a:hover {text-decoration:none;color:blue;}
 
 .headerimage{
   width:77%;
@@ -152,11 +177,11 @@ a:hover {text-decoration:none;color:white;}
   margin-left: 11%;
   margin-top: 30px;
   color: red;
-  font-family: nimbus sans;
+  font-family: arial;
 }
 
 .articlebodyheading{
-  font-family: nimbus sans;
+  font-family: arial;
   margin-left: 11%;
   color: red;
   font-weight: bold;
@@ -164,7 +189,7 @@ a:hover {text-decoration:none;color:white;}
 }
 
 .articlebodytext{
-  font-family: nimbus sans;
+  font-family: arial;
   margin-left: 11%;
   margin-right: 14%;
   color: red;
@@ -194,20 +219,20 @@ a:hover {text-decoration:none;color:white;}
 }
 
 .aboutheading{
-  font-family: nimbus sans;
+  font-family: arial;
   color: blue;
   text-align: center;
   font-size: 50px;
-  font-weight: bold;
+  font-weight: bolder;
   margin-top: 120px;
 }
 
 .aboutbody{
-  font-family: nimbus sans;
+  font-family: arial;
   color: lightsalmon;
   text-align: center;
   padding-left: 430px;
   padding-right: 430px;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 27px;
 }
