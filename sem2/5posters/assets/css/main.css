@@ -5,11 +5,98 @@
   box-sizing: border-box;
 }
 
+.type{
+  font-size: 100px;
+  font-family: arial;
+  font-weight: bolder;
+  padding: 25px;
+}
 
+.heading{
+  z-index: 4;
+  position: relative;
+  padding: 25px;
+}
 
+.circle {
+  top: -700px;
+	width: 1460px;
+	height: 1460px;
+	background: yellow;
+	-moz-border-radius: 730px;
+	-webkit-border-radius: 730px;
+	border-radius: 730px;
+  opacity: 0.8;
+  box-shadow: 0 0 80px 80px white inset;
+  z-index: -2;
+  position: relative;
+  left: -40px;
+}
 
-/* Start here */
+.year{
+  left: 1240px;
+  top: -260px;
+  position: relative;
+  padding: 25px;
+}
 
-body {
-background-color: red;
+.bottom{
+  position: relative;
+  left: 70%;
+  color: black;
+  z-index: 4;
+  font-size: 60px;
+  font-family: arial;
+  font-weight: bolder;
+  display: inline-block;
+  padding: 25px;
+}
+
+.spanish{
+  font-size: 30px;
+  font-family: arial;
+  font-weight: bolder;
+  z-index: 4;
+  color: black;
+  position: relative;
+  display: inline-block;
+  left: -30%;
+  padding: 25px;
+}
+
+.piccolo{
+  color: red;
+  font-size: 80px;
+  font-family: arial;
+  font-weight: bold;
+  line-height: 70px;
+  letter-spacing: 1%;
+  position: relative;
+  z-index: 1;
+}
+
+.piccolo span{
+  color: black;
+}
+
+.poster2{
+  background-color: #FFF8EA;
+  position: relative;
+  margin: -10px;
+  padding: 25px;
+}
+
+.body{
+  margin: -10px;
+}
+
+.ente{
+  color: black;
+  z-index: 5;
+  position: relative;
+  font-size: 22px;
+  font-family: arial;
+  font-weight: bold;
+  top: -620px;
+  left: 40%;
 }
