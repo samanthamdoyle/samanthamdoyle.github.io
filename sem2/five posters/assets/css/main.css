@@ -4,3 +4,31 @@
 * {
   box-sizing: border-box;
 }
+
+body{
+  text-align: center;
+  padding: 50px;
+  background-color: black;
+}
+
+.posters{
+  font-family: nimbus sans;
+  font-weight: bolder;
+  font-size: 130px;
+  text-transform: uppercase;
+  letter-spacing: 20px;
+  font-style: oblique;
+  position: relative;
+  z-index: 2;
+  line-height: 140px;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}
+
+a:hover{
+  text-shadow: 7px 7px 10px blue;
+  color: black;
+}
