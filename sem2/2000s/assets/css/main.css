@@ -109,9 +109,9 @@ img:hover{
 .nav span{
   display: inline;
   list-style-type: none;
-  padding-left: 60px;
-  padding-right: 60px;
-  letter-spacing: 2px;
+  padding-left: 50px;
+  padding-right: 50px;
+  letter-spacing: 3px;
 }
 
 .nav span:hover{
