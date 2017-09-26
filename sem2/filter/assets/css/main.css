@@ -126,3 +126,29 @@ cursor: pointer;
 .hide{
   display: none;
 }
+
+.gifs{
+  position: absolute;
+  z-index: 30;
+  transform: none;
+  display: flex;
+  flex-wrap:wrap;
+}
+
+.kiss{
+  margin-top: -100px;
+  margin-left: 70px;
+  position: absolute;
+}
+
+.pig{
+  margin-top: -114px;
+  margin-left: 1145px;
+  position: absolute;
+}
+
+.love{
+  margin-top: 114px;
+  margin-left: 1145px;
+  position: absolute;
+}
