@@ -5,43 +5,129 @@
   box-sizing: border-box;
 }
 
-body{
-  margin: 0px;
+body {
+background-color: pink;
+}
+
+img{
+  max-width: 80%;
+  display: block;
+  margin: auto;
+  box-shadow: 0px 0px 30px #FF00FF;
+}
+
+.heading{
+  font-size: 120px;
+  letter-spacing: 5px;
+  font-family: impact;
+  font-style: oblique;
+  color: white;
+  margin-left: 40px;
+  z-index: 40;
+  text-align: center;
+  top: 300px;
+  position: relative;
+  color: white;
+  text-shadow: 0px 0px 50px  #FF00FF;
+  transform: rotate(-5deg);
+  opacity: 0.9;
+}
+
+.ads{
+  text-align: left;
+  z-index: 50;
+  position: relative;
+  margin-top: -750px;
+}
+
+.brands{
+  text-align: left;
+  z-index: 50;
+  position: relative;
+  margin-top: 620px;
+}
+
+.celeb{
+  margin-left: 1200px;
+  z-index: 50;
+  position: relative;
+  margin-top: -675px;
+}
+
+.mags{
+  margin-left: 1200px;
+  z-index: 50;
+  position: relative;
+  margin-top: 620px;
 }
 
 .container{
-display: flex;
-border: 10px solid goldenrod;
-flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-around;
 }
 
-.box{
-  text-align: center;
-  font-family: arial;
+.links {
+  z-index: 50;
+  position: relative;
+  font-size: 25px;
+  font-family: impact;
+  font-weight: bold;
+  letter-spacing: 4px;
+  padding: 30px;
+  font-style: oblique;
+}
+
+.adsheading{
+  font-size: 40px;
+  letter-spacing: 5px;
+  font-family: impact;
+  font-style: oblique;
   color: white;
-  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
-  font-size: 24px;
-  text-transform: uppercase;
+  text-align: center;
+  margin-top: 25px;
+  text-shadow: 0px 0px 50px  blue;
 }
 
-.box{
-  flex: 0 0 33.333%;
-  background-color: yellow;
+.arrow1{
+  font-family: impact;
+  color: white;
+  text-shadow: 0px 0px 50px  blue;
+  position: absolute;
+  font-size: 40px;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+  text-shadow: 0px 0px 30px  blue;
+}
+
+a:hover{
+  color: pink;
+}
+
+.col1of1{
+  flex: 0 0 100%;
+}
+
+.col1of2{
+  flex: 0 0 50%;
+}
+
+.col1of3{
+flex: 0 0 33.333%;
+}
+
+.col1of4{
+  flex: 0 0 25%;
+}
+
+.col1of5{
+  flex: 0 0 20%;
 }
 
 .content{
-  padding: 20px;
-  margin: 20px;
-}
-
-.box1 .content{
-  background-color: red;
-}
-
-.box2 .content{
-  background-color: pink;
-}
-
-.box3 .content{
-background-color: blue;
+  padding: 
 }
