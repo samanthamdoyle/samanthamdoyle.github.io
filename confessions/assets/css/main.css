@@ -22,8 +22,19 @@ body{
   75% {   background-color: #ffff00;}
 }
 
+form{
+  color: blue;
+  z-index: 20;
+  display: flex;
+  position:absolute;
+  top: 50%;
+  left: 50%;
+}
+
 .colour {
-  animation: bgColor 5s infinite step-end;;
+  animation: bgColor 3s infinite step-end;;
+  z-index: -20;
+  position: absolute;
 }
 
 .pic{
