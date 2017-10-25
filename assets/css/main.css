@@ -15,14 +15,14 @@ body{
 
 a{
   z-index: 60;
-  position: fixed;
+  position: absolute;
   background-color: white;
   text-decoration: none;
   border-radius: 15px;
-  left: 5px;
-  top:5px;
-  width: 45px;
-  height: 42px;
+  left: 10px;
+  top:10px;
+  width: 55px;
+  height: 52px;
   text-align: center;
 }
 
@@ -46,7 +46,7 @@ a:hover{
 
 form{
   z-index: 20;
-  position:fixed;
+  position: absolute;
   top: 40%;
   justify-content: center;
   display: table-cell;
