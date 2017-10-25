@@ -15,7 +15,7 @@ body{
 
 a{
   z-index: 60;
-  position: absolute;
+  position: fixed;
   background-color: white;
   text-decoration: none;
   border-radius: 15px;
@@ -46,8 +46,8 @@ a:hover{
 
 form{
   z-index: 20;
-  position: absolute;
-  top: 40%;
+  position: fixed;
+  top: 300px;
   justify-content: center;
   display: table-cell;
   verticle-align: top;
