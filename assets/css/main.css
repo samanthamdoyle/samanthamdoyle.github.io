@@ -13,6 +13,24 @@ body{
   background-color: black;
 }
 
+a{
+  z-index: 60;
+  position: fixed;
+  background-color: black;
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+  font-family: arial;
+  font-weight: 800;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+a:hover{
+  color: black;
+  background-color: white;
+}
+
 @keyframes bgColor {
   0%  {   background-color: #ff66ff  }
   25% {   background-color: #00ff00;}
@@ -23,7 +41,7 @@ body{
 form{
   z-index: 20;
   position:fixed;
-  top: 45%;
+  top: 40%;
   justify-content: center;
   display: table-cell;
   verticle-align: top;
