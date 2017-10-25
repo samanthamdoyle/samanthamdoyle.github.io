@@ -24,7 +24,6 @@ form{
   z-index: 20;
   position:fixed;
   top: 45%;
-
   justify-content: center;
   display: table-cell;
   verticle-align: top;
@@ -39,7 +38,7 @@ textarea{
   text-align: center;
   width: 60%;
   margin-left: 20%;
-  right: 20%;
+
   height: 80px;
   padding:10px;
   border-color: black;
