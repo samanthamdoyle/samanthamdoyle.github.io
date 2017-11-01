@@ -21,6 +21,18 @@ body.evenS.pm .sunset {
 
 /* Time CSS here */
 
-body.evenS .time{
+body.halfM .image_swap .loader, body.halfM .image_swap .loading {
+  display: none;
+}
 
+body.halfM .image_swap .three, body.halfM .image_swap .squares{
+  display: block;
+}
+
+body.fullM .image_swap .loader, body.fullM .image_swap .loading{
+  display: block;
+}
+
+body.fullM .image_swap .three, body.fullM .image_swap .squares{
+  display: none;
 }
